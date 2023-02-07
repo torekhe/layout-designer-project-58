@@ -1,0 +1,49 @@
+@import url(./colors.css);
+@import url(./fonts.css);
+body {
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+h{
+    line-height: 1.2em;
+}
+h1 {
+    font-size: 72px;
+}
+h2{
+   font-size: 60px; 
+}
+h3 {
+    font-size: 34px;
+}
+section {
+    max-width: 1110px;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 100px 165px;
+}
+/* .photo_header{
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -270px;
+} */
+.btn-more{
+    padding: 12px 24px;
+    font-weight: bold;
+    background-color:var(--blue);
+}
+
+/* bloc with video */
+.video-bloc {
+    position: relative;
+}
+iframe{
+    margin-top: 30px;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    position: absolute;
+    top: 329px;
+    right: 261px;
+}
